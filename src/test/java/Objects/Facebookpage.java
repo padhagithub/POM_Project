@@ -42,8 +42,7 @@ public class Facebookpage {
 			String title = driver.getTitle();
 			assertEquals(title, "Log in to Facebook");
 
-			Thread.sleep(1000);
-		} catch (Exception e) {
+				} catch (Exception e) {
 			System.out.println("Exception Caught:" + e.getMessage());
 		}
 	}
